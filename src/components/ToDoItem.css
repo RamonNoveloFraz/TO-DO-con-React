@@ -1,0 +1,27 @@
+.ToDoItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToDoItem-Text {
+    color: blue;
+    width: 90%;
+    background-color: cyan;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px blue;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.ToDoItem-Delete {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background: #ff7373;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #c70202;
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+}
